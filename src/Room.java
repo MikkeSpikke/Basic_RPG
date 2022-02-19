@@ -6,12 +6,12 @@ public class Room {
 	String name;
 	List<String> desc = new ArrayList<String>();
 	List<String> exits = new ArrayList<String>();
-	public Room(int x)
-	{
-		
+	List<NPC> npc = new ArrayList<NPC>();
+
+	public Room(int x) {
+
 		number = x;
-		
+
 	}
-	
 
 }
